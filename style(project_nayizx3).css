@@ -50,3 +50,27 @@ footer {
   padding: 25px;
   border: 5px solid black;
 }
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+}
+
+@media (min-width: 768px) {
+    .projects {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 1200px) {
+    .projects {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
