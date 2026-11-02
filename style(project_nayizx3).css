@@ -51,6 +51,12 @@ footer {
   border: 5px solid black;
 }
 
+.row {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
 nav ul {
     display: flex;
     gap: 24px;
