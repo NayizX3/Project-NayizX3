@@ -37,14 +37,14 @@ footer {
     margin-top: 32px;
 }
 .box {
-    width: 550px;
+    max-width: 550px;
   height: 150px;
   margin: 10px;
   padding: 25px;
   border: 5px solid black;
 }
 .box2 {
-  width: 200px;
+  max-width: 200px;
   height: 200px;
   margin: 20px;
   padding: 25px;
