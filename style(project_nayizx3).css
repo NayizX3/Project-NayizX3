@@ -44,6 +44,7 @@ footer {
   border: 5px solid black;
 }
 .box2 {
+ display: flex;
   max-width: 200px;
   height: 200px;
   margin: 20px;
@@ -65,7 +66,6 @@ nav ul {
 }
 
 div {
-  display: flex;
   align-items: center;
   justify-content: space-around;
 }
