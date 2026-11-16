@@ -106,6 +106,9 @@ img {
 }
 
 .error {
+    display:none
+    margin: 8px 0 0;
+    font-size: 14px;
     color: red;
     font-weight: bold;
 }
@@ -114,7 +117,3 @@ img {
     color: green;
     font-weight: bold;
 }
-
-.error   input { border: 3px solid #900; }
-
-.correct input { border: 3px solid #007a00; }
