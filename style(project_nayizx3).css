@@ -178,14 +178,14 @@ div {
   font-weight: 700;
 }
 
-.contact-form-card input:user-invalid + .error,
-.contact-form-card textarea:user-invalid + .error,
-.contact-form-card [aria-invalid="true"] + .error {
+input:user-invalid + .error,
+textarea:user-invalid + .error,
+[aria-invalid="true"] + .error {
   display: block;
 }
 
-.contact-form-card input:user-invalid,
-.contact-form-card textarea:user-invalid {
+ input:user-invalid,
+textarea:user-invalid {
   border-color: #ffffff;
 }
 
