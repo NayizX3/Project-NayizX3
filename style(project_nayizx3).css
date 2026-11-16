@@ -189,9 +189,9 @@ textarea:user-invalid {
   border-color: #ffffff;
 }
 
- input:focus-visible,
-textarea:focus-visible,
-button:focus-visible {
+.contact-form-card  input:focus-visible,
+.contact-form-card textarea:focus-visible,
+.contact-form-card button:focus-visible {
   outline: 3px solid var(--light-blue-color);
   outline-offset: 3px;
 }
