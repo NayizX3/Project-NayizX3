@@ -38,25 +38,18 @@ So I put myself as an anime character everything is me but the ears and the horn
         Want to collab? Then contact me @ my <a href="mailto:NayizX3@gmail.com">business email</a> or fill out the form below! 
         </p>
 
-        <div class="correct">
-<label for="firstname">name:</label>
-<input type="text" name="firstname" id="firstname" aria-describedby="userDesc"><br>
-<span id="userDesc">✓</span>
-        </div>
-
-<label for="lastname">Last name:</label>
-<span class="error" id="lastname-error" aria-live="polite"></span>
-<span class="correct" id="lastname-correct" aria-live="polite"></span>
-<input type="text" name="lastname" id="lastname"><br>
+<label for="name">Name:</label>
+<input type="text" name="name" id="name" autocomplete="name" required aria-describedby="name-error">
+<p class="error" id="name-error">Please enter your name</p>
 
 <label for="email">Email:</label>
-<span class="error" id="email-error" aria-live="polite"></span>
-<span class="correct" id="email-correct" aria-live="polite"></span>
-<input type="email" name="email" id="email"><br>
+<input type="email" name="email" id="email" autocomplete="email" required aria-describedby="email-error">
+<p class="error" id="email-error">Please enter a valid email address</p>
 
 <label for="message">Message:</label>
-<textarea name="message" id="message"></textarea><br>
-<button type="submit" id="alertconfirm">Submit</button>
+<textarea name="message" id="message" required aria-describedby="message-error"></textarea>
+<p class="error" id="message-error">Please enter your message</p>
+
         </div>
     </section>       
 </main>
