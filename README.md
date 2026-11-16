@@ -7,3 +7,5 @@ Taken away u (which was the underlines under the heading named "MENU") on all pa
 Changed the color background from "green" to a light green due to the color contrast(On all three pages)
 
 Fixed the font and made it bigger to 18px (might fix it to another size it is just temporary)
+
+added figure/ground and proximity to the schedule page in the html file "index"
