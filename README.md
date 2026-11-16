@@ -2,7 +2,7 @@
 
 Fixed h1 on all four pages with heading it h1-h6 (if a h6 is needed)
 
-Taken away </u/> (which was the underlines under the heading named "MENU") on all pages
+Taken away u (which was the underlines under the heading named "MENU") on all pages
 
 Changed the color background from "green" to a light green due to the color contrast(On all three pages)
 
