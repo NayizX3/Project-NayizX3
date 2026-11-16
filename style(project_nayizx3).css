@@ -113,13 +113,15 @@ img {
     margin-bottom: var(--spacing-medium)
 }
 
-.error {
+.contact-form-card .error {
 
     display: none;
     width: 100%;
     margin: 8px 0 0;
     padding: 8px;
     border: 1px solid red;
+    border-radius: 4px;
+    background-color: #ffe6e6;
     font-size: 16px;
     color: red;
     font-weight: 600;
