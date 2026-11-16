@@ -105,7 +105,12 @@ img {
     }
 }
 
-
+.contact-form-card {
+  padding: var(--spacing-medium);
+  border: 2px solid var(--primary-color);
+  border-radius: var(--border-radius);
+  background-color: #6fe0ff;
+}
 
 .contact-form-card .form-intro {
   margin-bottom: var(--spacing-large);
@@ -137,6 +142,11 @@ img {
   min-height: 44px;
   margin: 0;
   padding: var(--spacing-small);
+  color: var(--black-color);
+  background-color: var(--light-blue-color-background-color);
+    border: 1px solid var(--black-color-border);
+    border-radius: var(--radius-medium);
+    font: inherit;
 }
 
 .contact-form-card textarea {
@@ -174,16 +184,15 @@ img {
 }
 
 .contact-form-card .error {
-
-    display: none;
-    width: 100%;
-    margin: 8px 0 0;
-    padding: 8px;
-    border: 1px solid red;
-    border-radius: 4px;
-    font-size: 16px;
-    color: red;
-    font-weight: 600;
+  display: none;
+  width: 100%;
+  margin: var(--spacing-small) 0 0;
+  padding: var(--spacing-small) var(--spacing-medium);
+  color: #ffffff;
+  background-color: #7a1f1f;
+  border: 2px solid #ffffff;
+  border-radius: var(--spacing-small);
+  font-weight: 700;
 }
 
 .contact-form-card input:user-invalid + .error,
