@@ -125,7 +125,7 @@ div {
   min-height: 44px;
   margin: 0;
   padding: var(--spacing-small);
-  color: var(--red-color);
+  color: var(--black-color);
   background-color: var(--light-blue-color-background-color);
     border: 1px solid var(--black-color-border);
     border-radius: var(--radius-medium);
@@ -166,7 +166,7 @@ div {
   accent-color: var(--primary-color);
 }
 
-.contact-form-card .error {
+.error {
   display: none;
   width: 100%;
   margin: var(--spacing-small) 0 0;
