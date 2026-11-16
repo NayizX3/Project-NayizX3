@@ -107,6 +107,10 @@ img {
 
 .error {
     display: block;
+}
+
+.error {
+    display: none;
     margin: 8px 0 0;
     font-size: 16px;
     color: red;
