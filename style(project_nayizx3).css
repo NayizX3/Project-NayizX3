@@ -124,8 +124,6 @@ img {
 
 form {
     display: flex;
-    flex-direction: column;
+    flex-direction:column-reverse;
     gap: 16px;
-    max-width: 400px;
-    margin: 0 auto;
 }
