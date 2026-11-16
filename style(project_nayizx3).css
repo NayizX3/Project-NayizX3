@@ -196,7 +196,7 @@ button:focus-visible {
   outline-offset: 3px;
 }
 
- .form-button {
+ .contact-form-card .form-button {
   min-height: 44px;
   padding: var(--spacing-small) var(--spacing-large);
   color: var(--background-color);
@@ -208,7 +208,7 @@ button:focus-visible {
   cursor: pointer;
 }
 
- .form-button:hover {
+ .contact-form-card .form-button:hover {
   color: var(--primary-color);
   background-color: var(--background-color);
 }
