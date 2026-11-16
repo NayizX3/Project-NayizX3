@@ -105,13 +105,16 @@ img {
     height: auto;
 }
 
-error {
+.error {
     color: red;
     font-weight: bold;
 }
 
-correct {
+.correct {
     color: green;
     font-weight: bold;
 }
 
+.error   input { border: 3px solid #900; }
+
+.correct input { border: 3px solid #007a00; }
