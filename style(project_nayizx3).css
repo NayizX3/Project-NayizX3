@@ -107,7 +107,7 @@ img {
 
 .error {
 
-    display: block;
+    display: none;
     width: 100%;
     margin: 8px 0 0;
     padding: 8px;
