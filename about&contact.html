@@ -50,13 +50,23 @@ So I put myself as an anime character everything is me but the ears and the horn
 <input type="email" name="email" id="email" autocomplete="email" required aria-describedby="email-error">
 <p class="error" id="email-error">Please enter a valid email address</p>
             </div>
-
-<fieldset>
-    <div class="form-field">
+<div class="form-field">
 <legend>Subject:</legend>
 <input type="text" name="subject" id="subject" required aria-describedby="subject-error">
 <p class="error" id="subject-error">Please enter a subject</p>
     </div>
+
+<fieldset>
+    <legend>How did you hear about me?</legend>
+    <div class="choice">
+        <input type="radio" name="source" id="socials" value="socials" required aria-describedby="source-error">
+        <label for="socials">Socials</label>
+    </div>
+    <div class="choice">
+        <input type="radio" name="source" id="friend" value="friend">
+        <label for="friend">Friend</label>
+    </div>
+    
 </fieldset>
 
             <div class="form-field">
