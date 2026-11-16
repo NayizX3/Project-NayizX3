@@ -110,7 +110,7 @@ img {
 }
 
 .error {
-    display: none
+    display: none;
     width: 100%;
     margin: 8px 0 0;
     padding: 8px;
