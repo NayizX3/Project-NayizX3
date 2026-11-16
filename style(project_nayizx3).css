@@ -105,6 +105,13 @@ img {
     height: auto;
 }
 
-overlay {
-    background-color: rgb(255, 255, 255);
+error {
+    color: red;
+    font-weight: bold;
 }
+
+correct {
+    color: green;
+    font-weight: bold;
+}
+
