@@ -44,7 +44,7 @@ footer {
   border: 5px solid black;
 }
 
-dim {
+.dim {
 position: absolute;
     inset: 0;
     background: rgba(22, 35, 63, 0.7);
