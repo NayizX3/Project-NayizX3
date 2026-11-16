@@ -105,7 +105,7 @@ div {
   max-width: 100%;
 }
 
-.contact-form-card .form-field {
+ .form-field {
     display: flex; 
     flex-direction: column;
     align-items: stretch;
@@ -113,13 +113,13 @@ div {
     margin-bottom: var(--spacing-medium)
 }
 
-.contact-form-card .form-field > label {
+ .form-field > label {
   display: block;
   margin: 0 0 var(--spacing-small);
 }
 
-.contact-form-card .form-field > input,
-.contact-form-card .form-field > textarea {
+ .form-field > input,
+ .form-field > textarea {
   display: block;
   width: 100%;
   min-height: 44px;
@@ -132,12 +132,12 @@ div {
     font: inherit;
 }
 
-.contact-form-card textarea {
+ textarea {
   min-height: 140px;
   resize: vertical;
 }
 
-.contact-form-card fieldset {
+ fieldset {
   width: 100%;
   min-width: 0;
   margin: 0 0 var(--spacing-medium);
@@ -146,19 +146,19 @@ div {
   border-radius: var(--radius-medium);
 }
 
-.contact-form-card legend {
+ legend {
   padding: 0 var(--spacing-small);
   font-weight: 700;
 }
 
-.contact-form-card .choice {
+ .choice {
   display: flex;
   align-items: center;
   gap: var(--spacing-small);
   margin-top: var(--spacing-small);
 }
 
-.contact-form-card .choice input {
+ .choice input {
   flex: 0 0 20px;
   width: 20px;
   height: 20px;
@@ -189,14 +189,14 @@ textarea:user-invalid {
   border-color: #ffffff;
 }
 
-.contact-form-card input:focus-visible,
-.contact-form-card textarea:focus-visible,
-.contact-form-card button:focus-visible {
+ input:focus-visible,
+textarea:focus-visible,
+button:focus-visible {
   outline: 3px solid var(--light-blue-color);
   outline-offset: 3px;
 }
 
-.contact-form-card .form-button {
+ .form-button {
   min-height: 44px;
   padding: var(--spacing-small) var(--spacing-large);
   color: var(--background-color);
@@ -208,7 +208,7 @@ textarea:user-invalid {
   cursor: pointer;
 }
 
-.contact-form-card .form-button:hover {
+ .form-button:hover {
   color: var(--primary-color);
   background-color: var(--background-color);
 }
