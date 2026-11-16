@@ -125,7 +125,7 @@ div {
   min-height: 44px;
   margin: 0;
   padding: var(--spacing-small);
-  color: var(--black-color);
+  color: var(--red-color);
   background-color: var(--light-blue-color-background-color);
     border: 1px solid var(--black-color-border);
     border-radius: var(--radius-medium);
@@ -275,3 +275,4 @@ div {
   main {
     width: calc(100% - 16px);
   }
+}
